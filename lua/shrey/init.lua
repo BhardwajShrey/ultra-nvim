@@ -1,2 +1,2 @@
 require("shrey.mappings")
-print("Hello from shrey")
+require("shrey.setup")
