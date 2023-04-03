@@ -1,1 +1,15 @@
-require'alpha'.setup(require'alpha.themes.startify'.config)
+local alpha = require'alpha'
+local startify = require'alpha.themes.startify'
+
+startify.section.header.val = {
+    [[                                                                                  ]],
+    [[      _______. __   __    __   __    __   __    __  ____    ____  __  .___  ___. ]],
+    [[     /       ||  | |  |  |  | |  |  |  | |  |  |  | \   \  /   / |  | |   \/   | ]],
+    [[    |   (----`|  | |  |  |  | |  |  |  | |  |  |  |  \   \/   /  |  | |  \  /  | ]],
+    [[     \   \    |  | |  |  |  | |  |  |  | |  |  |  |   \      /   |  | |  |\/|  | ]],
+    [[ .----)   |   |  | |  `--'  | |  `--'  | |  `--'  |    \    /    |  | |  |  |  | ]],
+    [[ |_______/    |__|  \______/   \______/   \______/      \__/     |__| |__|  |__| ]],
+    [[                                                                                 ]]
+}
+
+alpha.setup(startify.config)
