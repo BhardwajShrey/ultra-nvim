@@ -74,4 +74,11 @@ return require('packer').startup(function(use)
 
   use ( 'lukas-reineke/indent-blankline.nvim' )
 
+  use {
+      'goolord/alpha-nvim',
+      requires = { 'nvim-tree/nvim-web-devicons' },
+  }
+
+  use ( 'feline-nvim/feline.nvim' )
+
 end)
