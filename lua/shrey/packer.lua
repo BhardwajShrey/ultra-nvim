@@ -81,13 +81,4 @@ return require('packer').startup(function(use)
 
   use ( 'feline-nvim/feline.nvim' )
 
-  use {
-      'gorbit99/codewindow.nvim',
-      config = function()
-          local codewindow = require('codewindow')
-          codewindow.setup()
-          codewindow.apply_default_keybinds()
-      end,
-  }
-
 end)
