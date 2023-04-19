@@ -81,4 +81,6 @@ return require('packer').startup(function(use)
 
   use ( 'feline-nvim/feline.nvim' )
 
+  use ( 'gorbit99/codewindow.nvim' )
+
 end)
