@@ -13,7 +13,8 @@ lsp.ensure_installed({
   'lua_ls',
   'rescriptls',
   'bashls',
-  'rust_analyzer'
+  'rust_analyzer',
+  'gopls'
 })
 
 lsp.setup()

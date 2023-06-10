@@ -21,6 +21,8 @@ return require('packer').startup(function(use)
 	  end
   })
 
+  use { "ellisonleao/gruvbox.nvim" }
+
   use ( 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'} )
 
   use ( 'nvim-treesitter/playground' )
