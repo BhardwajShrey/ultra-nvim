@@ -6,13 +6,7 @@ end)
 
 lsp.ensure_installed({
   -- Replace these with whatever servers you want to install
-  'tsserver',
-  'eslint',
-  'dockerls',
-  'jsonls',
   'lua_ls',
-  'rescriptls',
-  'bashls',
   'rust_analyzer',
   'gopls'
 })
